@@ -1,0 +1,19 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: aliceblue; 
+    font-size: large;   
+}
+
+#inline-section {
+    background-color: aliceblue;
+}
+
+#inline-section > div {
+    background-color: beige;
+    float: inline-start;
+    font-size: medium;
+}
